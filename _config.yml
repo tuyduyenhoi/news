@@ -4,7 +4,7 @@ bio:                'Jekyll version of the Massively theme by HTML5UP'
 description:        "Jekyll version of the Massively theme by HTML5UP"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tuyduyenhoi.github.io/news" # the base hostname & protocol for your site
+url: "https://tuyduyenhoi.github.io/news/" # the base hostname & protocol for your site
 
 # Comments
 disqus_shortname:   default
@@ -28,7 +28,7 @@ slapform_thankyou_page: /thank-you
 
 defaults:
 - scope:
-    path: ''
+    path: '/news'
     type: posts
   values:
     permalink: "/blog/:title/"
