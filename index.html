@@ -72,8 +72,8 @@ sitemap:
 
 						<!-- Posts -->
 							<section class="posts">
-                {% for post in site.posts limit:3 %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
+                {% for post in site.posts limit:9 %}
+                {% assign mod3 = forloop.index | modulo: 9 %}
   								<article>
   									<header>
   										<span class="date">{{ post.date | date_to_string }}</span>
